@@ -168,3 +168,31 @@ ul {
 .link-footer:focus {
   color: var(--other-color);
 }
+
+/*страница портфолио*/
+.buttons {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+.buttons:hover,
+.buttons:focus {
+  color: var(--other-color);
+  background-color: var(--logo-color);
+}
+
+.gallery h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery p {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--second-text-color);
+}
