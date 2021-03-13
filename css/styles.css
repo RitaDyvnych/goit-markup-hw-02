@@ -69,15 +69,18 @@ ul {
 }
 
 /*секция герой*/
-.hero {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--other-color);
+}
+
+.hero {
   background-color: var(--main-text-color);
+  text-align: center;
 }
 
 .hero-button {
@@ -86,7 +89,6 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--other-color);
   background-color: var(--logo-color);
@@ -157,7 +159,7 @@ ul {
 .link-footer {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71x;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -175,12 +177,22 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  background: #f5f4fa;
   cursor: pointer;
 }
 .buttons:hover,
 .buttons:focus {
   color: var(--other-color);
   background-color: var(--logo-color);
+}
+.first-button {
+  color: var(--other-color);
+  background-color: var(--logo-color);
+}
+
+.first-button:hover,
+.first-button:focus {
+  background-color: rgba(33, 150, 243, 0.7);
 }
 
 .gallery h2 {
@@ -193,4 +205,14 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   color: var(--second-text-color);
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
