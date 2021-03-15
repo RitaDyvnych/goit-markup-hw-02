@@ -120,6 +120,9 @@ ul {
   text-align: center;
 }
 /*секция 4*/
+.our-team {
+  background-color: #F5F4FA;
+}
 .section4-title {
   font-weight: bold;
   font-size: 36px;
